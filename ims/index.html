@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Inventory Managment System</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </head>
+    <body>
+    <header>
+      <div class="container-fluid main_menu">
+          <div class="row">
+             <div class="col-md-12 col-12 mx-auto">
+         <nav class="navbar navbar-expand-lg fixed-top">
+                        <a class="navbar-brand" href="#">Inventory Managment System</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="login.html">Dashboard<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="login.html">Suppliers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Products </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="login.html">Sales Invoice </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="login.html">Purchase</a>
+                              </li>
+                            </ul>
+                              <ul class="navbar-nav ml-auto">
+                                  <a class="btn" href="login.html">Login</a>
+                              </ul>
+                          
+                        </div>
+                      </nav>
+                      </div>
+                      </div>
+                      </div>
+                      </header>
+                      
+                      <!--Carousel-->
+                      <section class="content-banner">
+                        <div class="container">
+                          <div class="row d-flex">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                          <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                          </ul>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="images/c3.jpg" width="1100" height="500">
+                              <div class="carousel-caption">
+                                <h2>Track your goods, throughout your entire supply chain</h2>
+                                <a class="btn btn-warning" href="login.html">Go to Dashboard</a>
+                              </div>   
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/c1.jpg" width="1100" height="500">
+                              <div class="carousel-caption">
+                                <h2>Track your goods, throughout your entire supply chain 
+                                </h2>
+                                <a class="btn btn-warning" href="login.html">Go to Dashboard</a>
+                              </div>   
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/c2.jpg" width="1100" height="500">
+                              <div class="carousel-caption">
+                                <h2>Track your goods, throughout your entire supply chain</h2>
+                                <a class="btn btn-warning pt-2" href="login.html">Go to Dashboard</a>
+                              </div>   
+                            </div>
+                          </div>
+                          <!-- Left and right controls -->
+               <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+             </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                   <span class="carousel-control-next-icon"></span>
+              </a>
+                        </div>
+                        </div>
+                        </section>
+                        
+        <div class="container-fluid">
+                        <section>
+                          <div class="row pt-4">
+                            <div class="col-md-4 col-12 mx-auto">
+                              <span> <img src="images/gear .png" class="img-fluid mx-auto d-block" style="width:30%;height:30%;"></span>
+                              <h2 class="text-center pt-4">Editable Theme</h2>
+                              <p class="text-center pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit.
+                                Quisque pharetra lorem id ligula finibus,</p> 
+                            </div>
+                            <div class="col-md-4 col-12 mx-auto">
+                              <span> <img src="images/star.png" class="img-fluid mx-auto d-block" style="width:30%;height:30%;"></span>
+                              <h2 class="text-center pt-4">Flat Design</h2>
+                              <p class="text-center pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. 
+                                Quisque pharetra lorem id ligula finibus,</p> 
+                            </div>
+                            <div class="col-md-4 col-12 mx-auto">
+                              <span> <img src="images/globe.png" class="img-fluid mx-auto d-block" style="width:30%;height:30%;"></span>
+                              <h2 class="text-center pt-4">Reach your Audience</h2>
+                              <p class="text-center pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit.
+                                Quisque pharetra lorem id.</p> 
+                            </div>
+                          </div>
+                        </section>
+       </div>
+       <section class="counters">
+        <div class="container">
+          <div>
+            <h1>Products</h1>
+            <i class="fas fa-truck-loading fa-5x"></i>
+            <div class="counter" data-target="60000" style="border-bottom: 1px lightskyblue solid;">0</div>
+          </div>
+          <div>
+            <h1>Sales</h1>
+            <i class="fa fa-user fa-5x"></i>
+            <div class="counter" data-target="15000" style="border-bottom: 1px lightskyblue solid;">0</div> 
+          </div>
+          <div>
+            <h1>Reveneu</h1>
+            <i class="fas fa-money-bill-alt fa-5x"></i>
+            <div class="counter" data-target="9000" style="border-bottom: 1px lightskyblue solid;">0</div>
+          </div>
+          <div>
+            <h1>Purchase</h1>
+            <i class="fas fa-truck-loading fa-5x"></i>
+            <div class="counter" data-target="700" style="border-bottom: 1px lightskyblue solid;">0</div>
+            
+          </div>
+         
+        </div>
+      </section>
+
+      <!-- footer-->
+
+    <section>
+      <footer>
+        <p class="text-center pt-3"> Inventory & Sales Managment System</p>
+        <p class="text-center"> Created by Faheem & Hateem</p>
+      </footer>
+      </section>
+
+                      
+
+                      <!--Java Script-->
+                      <script>
+                     const counters = document.querySelectorAll('.counter');
+const speed = 200; // The lower the slower
+
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+
+        // Lower inc to slow and higher to slow
+        const inc = target / speed;
+
+        // console.log(inc);
+        // console.log(count);
+
+        // Check if target is reached
+        if (count < target) {
+            // Add inc to count and output in counter
+            counter.innerText = count + inc;
+            // Call function every ms
+            setTimeout(updateCount, 1);
+        } else {
+            counter.innerText = target;
+        }
+    };
+
+    updateCount();
+});
+                      </script>
+        </body>
+        </html>
+        
